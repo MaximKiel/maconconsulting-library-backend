@@ -36,6 +36,8 @@ dependencies {
     // драйвер БД
     implementation 'org.postgresql:postgresql'
 
+    // для маппинга dto и model в контроллерах
+    implementation 'org.modelmapper:modelmapper:3.2.3'
 
     // lombok
     compileOnly 'org.projectlombok:lombok'
