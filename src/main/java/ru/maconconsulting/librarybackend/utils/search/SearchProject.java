@@ -22,7 +22,7 @@ public class SearchProject {
 
     private String location;
 
-    private TypeDTO typeDTO;
+    private TypeDTO type;
 
     private SegmentDTO segment;
 
