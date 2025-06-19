@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+.wrapper {
+    max-width: 1140px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.site-header__start a {
+    text-decoration: none;
+    color: white;
+}
+
+.site-header__middle a {
+    text-decoration: none;
+    color: white;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.sr-only {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #fff;
+    background-color: #2fa0f6;
+    min-width: 120px;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button svg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+}
+
+.button span {
+    display: none;
+}
+
+@media (min-width: 600px) {
+    .button span {
+        display: initial;
+    }
+}
+
+.button--icon {
+    min-width: initial;
+    padding: 0.5rem;
+}
+
+.add
+{
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    border: 1px dashed grey;
+    margin: 10px 0;
+}
+
+.add:hover
+{
+    cursor: pointer;
+    background-color: #360581;
+}
+
+.select-checkbox option::before {
+    content: "\2610";
+    width: 1.3em;
+    text-align: center;
+    display: inline-block;
+}
+.select-checkbox option:checked::before {
+    content: "\2611";
+}
+
+.btn {
+    display: inline-block;
+    background: #696969;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 250px;
+    font-size: 80%;
+}
+
+.rm_btn {
+    display: inline-block;
+    background: #696969;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 250px;
+    font-size: 80%;
+    text-align: left;
+}
